@@ -45,7 +45,7 @@
           center={{ lng: 116.413387, lat: 39.910924 }}
           zoom={12}
           ak="E4805d16520de693a3fe707cdc962045">
-         <Marker dragable={mapClick} point={{ lng: 116.413387, lat: 39.910924 }} />
+         <Marker dragable point={{ lng: 116.413387, lat: 39.910924 }} />
     </BMap>
 ```
 
@@ -64,7 +64,7 @@
 ######调用例子
 ```jsx
 <InfoWindow width={220} title="标题" content="内容">
-     <Marker dragable point={{ lng: 116.413387, lat: 39.910924 }} />
+    <Marker dragable point={{ lng: 116.413387, lat: 39.910924 }} />
 </InfoWindow>
 ```
 
@@ -80,9 +80,9 @@
 ######调用例子
 ```jsx
 <Polyline
-        points={ [{ lng: 116.413387, lat: 39.910924 }, { lng: 116.413687, lat: 39.911924 }] }
-    	strokeColor="green"
- />
+    points={ [{ lng: 116.413387, lat: 39.910924 }, { lng: 116.413687, lat: 39.911924 }] }
+    strokeColor="green"
+/>
 ```
 
 ####上下文菜单(ContextMenu & ContextMenuOption)
