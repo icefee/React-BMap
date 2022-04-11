@@ -128,7 +128,9 @@
             <ContextMenuOption width={120}>删除</ContextMenuOption>
          </ContextMenu>
     </BMap>
+```
 
+```jsx
     // 给标记Marker添加上下文菜单
     <Marker dragable point={{ lng: 116.413387, lat: 39.910924 }}>
         <ContextMenu>
